@@ -15,5 +15,13 @@ namespace Demo03_T2
          
         //methods
 
+        public void PrintData()
+            {
+            Console.WriteLine("WashingMachine's Brand is: {0}", Brand);
+            Console.WriteLine("WashingMachine's Model is: {0}", Model);
+            Console.WriteLine("WashingMachine's Spin speed is: {0}", SpinSpeed);
+            Console.WriteLine("WashingMachine's Laundry amount is: {0}", LaundryAmount);
+            }
+
     }
 }

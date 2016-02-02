@@ -15,16 +15,13 @@ namespace Demo3_Kotitehtava4
 
         // methods
 
-            // constructions
+        // vechile actions
         public Vechile()
-        { 
+        {
             Speed = 100;
-            Tyres = 4;  
+            Tyres = 4;
         }
-       // public Vechile(string Name)
-        //{
-          //  Name = Auto;
-        //}  
+        // prints properties
         public void PrintData()
         {
             Console.WriteLine("Vechile Name is: {0}", Name);

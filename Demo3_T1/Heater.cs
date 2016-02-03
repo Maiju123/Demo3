@@ -10,7 +10,7 @@ namespace Demo3_T1
     {   // properties
         public int Temperature { get; set; }
         public int Humidity { get; set; }
-        public bool IsOn { get; set; }
+        public bool IsOn { get; set; } 
 
         //default constructor
         public Heater()
